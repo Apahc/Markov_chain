@@ -43,7 +43,7 @@ def get_most_frequent_next_word(word_dict, word_tuple):
     else:
         return None
 
-data = open('C:/poop/poop/lider.txt', encoding='utf8').read()
+data = open('lider.txt', encoding='utf8').read()
 copy = remove_punctuation(data)
 text = lemmatize_text(remove_punctuation(data))
 
